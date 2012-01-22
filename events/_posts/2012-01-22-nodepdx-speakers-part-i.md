@@ -1,7 +1,7 @@
 ---
 layout: event
 title: NodePDX Speakers Part I
-rsvp_url: http:/nodepdx.github.com
+rsvp_url: http://lanyrd.com/2012/nodepdx/ 
 ---
 We've been busy over the last few days to bring you some great content from some rockin' speakers. Adron Hall has speaker introductions on his blog [Composite Code](http://compositecode.com), with the first three;
 
