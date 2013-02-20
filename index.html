@@ -1,40 +1,240 @@
-<html>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
-<title>nodepdx</title>
-<style type="text/css">
-body { 
-  margin-top: 50px;
-  background-color: black;
-  color: white;
-  font-family: sans-serif;
-  width: 70%;
-  margin: 0 auto;
-}
-</style>
-</head>
-<body>
-<img src="2012/assets/nodepdx-sticker/nodepdx-2012-sticker-2.png">
-<hr>
-<h3>nodepdx 2013</h3>
-<h4>May 16-17, Portland, Oregon</h4>
-<br />
-<!-- Begin MailChimp Signup Form -->
-<div id="mc_embed_signup">
-<form action="http://github.us6.list-manage.com/subscribe/post?u=ce2eab93dde06aba1f06c6cc6&amp;id=21cdec98cc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-  <h5>Details coming soon. Signup for news!</h5>
-<div class="mc-field-group">
-  <input type="email" value="" name="EMAIL" placeholder="email address" class="required email" id="mce-EMAIL">
-  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-</div>
-  <div id="mce-responses" class="clear">
-    <div class="response" id="mce-error-response" style="display:none"></div>
-    <div class="response" id="mce-success-response" style="display:none"></div>
-  </div>  <div class="clear">
-  </div>
-</form>
-</div>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>NodePDX - An independent conference focused on JavaScript, held yearly in Portland, Oregon</title>
+  <meta name="description" content="NodePDX - An independent conference focused on JavaScript, held yearly in Portland, Oregon.">
 
-<!--End mc_embed_signup-->
-</center>
-</body>
+  <meta name="author" content="NodePDX">
+  <meta name="ROBOTS" content="ALL">
+
+  <meta name="geo.country" content="US">
+  <meta name="dc.language" content="en">
+  <meta name="geo.placename" content="Portland, Oregon">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Open Graph protocol -->
+  <meta property="og:image" content="http://nodepdx.org/img/logo.png">
+  <meta property="og:title" content="NodePDX - An independent conference focused on JavaScript, held yearly in Portland, Oregon.">
+  <meta property="og:type" content="conference">
+  <meta property="og:url" content="http://nodepdx.org">
+  <meta property="og:site_name" content="NodePDX">
+  <!-- /Open Graph protocol -->
+
+  <!-- Google Plus1 -->
+  <meta itemprop="name" content="NodePDX">
+  <meta itemprop="description" content="NodePDX - An independent conference focused on JavaScript, held yearly in Portland, Oregon.">
+  <meta itemprop="image" content="http://nodepdx.org/img/logo.png">
+  <!-- /Google Plus1 -->
+
+  <!-- Favicon and touch icon  -->
+  <link rel="shortcut icon" href="img/icons/favicon.ico">
+  <link rel="apple-touch-icon" href="img/icons/apple-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-touch-icon-72x72.html">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/icons/apple-touch-icon-114x114.html">
+
+  <!-- CSS -->
+
+  <!-- 1140.css  - include resets ( Media querys, grid-responsive,layout). -->
+  <link rel="stylesheet" href="css/1140.css">
+
+  <!-- jquery.fancybox-1.3.1.css  - Lightbox -->
+  <link rel="stylesheet" href="js/fancybox/jquery.fancybox-1.3.1.css">
+  <link rel="stylesheet" href="css/slide.css">
+  <link rel="stylesheet" href="css/fontello.css">
+  <link rel="stylesheet" href="css/typography.css">
+  <!-- <link rel="stylesheet" href="css/carousel/flexslider.css"> -->
+  <link rel="stylesheet" href="css/tyopgraphy.css">
+  
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="http://roboto-webfont.googlecode.com/svn/trunk/roboto.all.css">
+  <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Pacifico"> -->
+
+  <link rel="stylesheet" href="css/styles.css">
+  
+  <!--css3-mediaqueries-js - Enables media queries in some unsupported browsers-->
+  <script type="text/javascript" src="js/queries/css3-mediaqueries.js"></script>  
+
+  <!-- Html for IE -->
+  <!--[if lte IE 8]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!-- 1140px Grid styles for IE -->
+  <!--[if lte IE 8]>
+    <link rel="stylesheet" href="ie/ie.css" type="text/css" media="screen" />
+  <![endif]-->
+</head> 
+<body onload="initialize();">
+  
+  <header>
+    <div class="container">
+      <div class="row">
+        <h1>nodePDX</h1>
+      </div>
+    </div>
+  </header>
+
+  <div class="shape"></div>
+
+  <section class="info">
+    <div class="row">
+      <div class="services">  
+        <div class="fourcol">
+          <div class="cta-icon">
+            <img src="img/pet.png" alt="pet" />
+          </div>
+          <h1>Hardware</h1>
+          <h6>JavaScript is powering more and more hardware. Come be part of a hands-on hardware-focused track entirely devoted to building things and writing JS code to make them tick.</h6>
+        </div>
+        <div class="fourcol">
+          <div class="cta-icon">
+            <img src="img/rollerskate.png" alt="rollerskate" />
+          </div>
+          <h1>Software</h1>
+          <h6>JavaScript lives in your browser, your server, your phone, your database, and possibly even your thermostat. Hear about some of the coolest developments in the world of JS code, or write the next best thing during the hackathons.</h6>
+        </div>
+        <div class="fourcol last">
+          <div class="cta-icon">
+            <img src="img/shades.png" alt="shades" />
+          </div>
+          <h1>Independent</h1>
+          <h6>We love this stuff. We do this for fun and because we can't not do it. It's nice that there are companies that are willing to pay for this, otherwise, we'd be starving artists.</h6>
+        </div>
+      </div>   
+    </div>
+  </section>
+
+  <section class="team info">
+    <div class="row">
+      <h1 class="datelogo">NODEPDX 2013</h1>
+      <h1 class="datelogo">MAY 16-17, PORTLAND</h1>
+      <h1 class="title">Pre-register Now!</h1>
+      <div class="twocol"></div>
+      <div class="eightcol centertext">
+        <p>Early-bird tickets will be available soon, but you don't have to wait to get pre-registered.</p>
+        <p><b>Sign up below</b> and you'll be among the first to get a ticket.</p>
+        <!-- Begin MailChimp Signup Form -->
+        <div id="mc_embed_signup">
+          <form action="http://github.us6.list-manage.com/subscribe/post?u=ce2eab93dde06aba1f06c6cc6&amp;id=21cdec98cc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div class="mc-field-group">
+            <input type="email" value="" name="EMAIL" placeholder="email address" class="required email" id="mce-EMAIL">
+            <input type="submit" value="Preregister" name="subscribe" id="mc-embedded-subscribe" class="button">
+          </div>
+          <div id="mce-responses" class="clear">
+            <div class="response" id="mce-error-response" style="display:none"></div>
+            <div class="response" id="mce-success-response" style="display:none"></div>
+          </div>
+          <!-- <div class="clear"></div> -->
+          </form>
+        </div>
+
+        <!--End mc_embed_signup-->
+    </div>
+        <div class="twocol last"></div>
+  </section>
+
+  <!-- Map -->
+  <section class="map">
+    <div class="map" id="map"></div>
+  </section>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div class="row">
+      <h3 class="footer_logo">nodePDX</h3>
+      <p>© NodePDX - Built with love and passion</p>
+      <div class="social">
+        <ul>
+          <!-- <li><a href="#" title="Facebook"><i class="icon-facebook-1"></i></a></li> -->
+          <li><a href="https://twitter.com/nodepdx" title="Twitter"><i class="icon-twitter-1"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script><script src="js/vendor/jquery-1.8.3.min.js"></script>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/jquery-ui.min.js"></script>
+
+  <script type="text/javascript" src="js/slide/modernizr.custom.28468.js"></script>
+  <script type="text/javascript" src="js/slide/jquery.cslider.js"></script> 
+  <script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.1.js"></script>
+  <script type="text/javascript" src="js/totop/jquery.ui.totop.js" ></script> 
+  <script type="text/javascript" src="js/scroll/smooth-scroll.js"></script> 
+  <script type="text/javascript" src="js/carousel/jquery.jcarousel.js"></script>
+
+  <!--fUNCTIONS-->
+  <script type="text/javascript" src="js/jquery-func.js"></script>
+
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+  <script>
+    // google maps
+
+    // some globals about our map location
+    var map;
+    var loc = new google.maps.LatLng(45.5236, -122.6750);
+    var markerPos = new google.maps.LatLng(45.5236, -122.6750);
+
+    // called from body.onload
+    function initialize() {
+
+      // some custom styling for a washed out look 
+      var stylers = [ 
+        { 
+          "featureType": "all", 
+          "elementType": "all",
+          "stylers": [ 
+              { "saturation": "-70" }  
+            ] 
+        } 
+      ];
+
+      var mapOptions = {
+        zoom: 14,
+        center: loc,
+        mapTypeId: 'venue',
+        scrollwheel: false
+      };
+      
+      map = new google.maps.Map(document.getElementById("map"), mapOptions);
+      
+      var styledMapOptions = {
+        map: map,
+        name: "venue-map"
+      }
+      var marker = new google.maps.Marker({
+        position: markerPos,
+        map: map,
+        title: "Portland"
+      });
+
+      var infowindow = new google.maps.InfoWindow({
+        maxWidth: 500,
+        position: markerPos,
+        content: '<div class="clearfix"><h4>Portland, Oregon</h4></div>'
+      });
+
+      // uncomment to show marker popup at load vs user click on marker
+      // infowindow.open(map);
+      
+      google.maps.event.addListener(marker, 'click', function() {
+        infowindow.open(map, marker);
+      });
+
+      var testmap =  new google.maps.StyledMapType(stylers, styledMapOptions);
+      
+      map.mapTypes.set('venue', testmap);
+      map.setMapTypeId('venue');
+    }
+  </script>
+</body> 
 </html>
