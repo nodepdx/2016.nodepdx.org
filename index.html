@@ -1,20 +1,246 @@
-<html>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
-<title>nodepdx</title>
-<style type="text/css">
-body { 
-  margin-top: 50px;
-  background-color: black;
-  color: white;
-  font-family: sans-serif;
-}
-</style>
-</head>
-<body>
-<center>
-<img src="2012/assets/nodepdx-sticker/nodepdx-2012-sticker-2.png">
-<h3>nodepdx 2013</h3>
-<h4>May 4-5, Portland, Oregon</h4>
-</center>
-</body>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>NodePDX - An independent conference focused on JavaScript, held yearly in Portland, Oregon</title>
+  <meta name="description" content="NodePDX - An independent conference focused on JavaScript, held yearly in Portland, Oregon.">
+
+  <meta name="author" content="NodePDX">
+  <meta name="ROBOTS" content="ALL">
+
+  <meta name="geo.country" content="US">
+  <meta name="dc.language" content="en">
+  <meta name="geo.placename" content="Portland, Oregon">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Open Graph protocol -->
+  <meta property="og:image" content="http://nodepdx.org/img/logo.png">
+  <meta property="og:title" content="NodePDX - An independent conference focused on JavaScript, held yearly in Portland, Oregon.">
+  <meta property="og:type" content="conference">
+  <meta property="og:url" content="http://nodepdx.org">
+  <meta property="og:site_name" content="NodePDX">
+  <!-- /Open Graph protocol -->
+
+  <!-- Google Plus1 -->
+  <meta itemprop="name" content="NodePDX">
+  <meta itemprop="description" content="NodePDX - An independent conference focused on JavaScript, held yearly in Portland, Oregon.">
+  <meta itemprop="image" content="http://nodepdx.org/img/logo.png">
+  <!-- /Google Plus1 -->
+
+  <!-- Favicon and touch icon  -->
+  <link rel="shortcut icon" href="img/icons/favicon.ico">
+  <link rel="apple-touch-icon" href="img/icons/apple-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-touch-icon-72x72.html">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/icons/apple-touch-icon-114x114.html">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">  
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap-responsive.min.css">  
+
+  <!-- Fonts -->
+  <link rel="stylesheet" href="http://roboto-webfont.googlecode.com/svn/trunk/roboto.all.css">
+  <link rel="stylesheet" href="css/fontello.css">
+  <link rel="stylesheet" href="css/typography.css">
+
+  <link rel="stylesheet" href="css/styles.css">
+  
+  <!--css3-mediaqueries-js - Enables media queries in some unsupported browsers-->
+  <script type="text/javascript" src="js/queries/css3-mediaqueries.js"></script>  
+
+  <!-- Html for IE -->
+  <!--[if lte IE 8]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head> 
+<body onload="initialize();">
+  
+  <header>
+    <div class="container">
+      <div class="row-fluid">
+        <div class="span12 logo_banner">
+          <h1 class="darkgrey">nodePDX</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <a name="call-to-action"></a>
+  <div class="shape"></div>
+
+  <section class="call-to-action">
+    <div class="container">
+      <div class="row pagination-centered">
+        <div class="span4">
+          <div class="cta-icon pet"></div>
+          <h1>Hardware</h1>
+          <h6>They're taking the world by storm. Quad coptors, remote control Lego Trains, Robots, cybernetic implants. The hardware world is being revolutionized in so many ways and JavaScript with Node.js is charging ahead. We're aiming to push that charge forward with a track dedicated to hardware hacking, so bring your ideas, your hardware, your code &amp; let's hack.</h6>
+        </div>
+        <div class="span4">
+          <div class="cta-icon rollerskate"></div>
+          <h1>Software</h1>
+          <h6>Code, it's in every thing we touch these days. JavaScript is stepping into new code realms everyday, in the browser, server, phone, databases, map reductions, your house and even in places we've no idea yet. Where are we heading next with JavaScript, what else should we do with it? Come hear about and contribute to the coolest developments in the world of JavaScript.</h6>
+        </div>
+        <div class="span4">
+          <div class="cta-icon shades"></div>
+          <h1>Independent</h1>
+          <h6>We love this stuff. We love building things. We do this for the fun of it and because we just can't not do it! We love that it provides so much monetary value to society, as companies actually pay us to do this stuff. Otherwise we'd be starving artists, and we're cool with good food.</h6>
+        </div>
+      </div>
+    </div>
+  </section>
+  <a name="info"></a>
+  <div class="shape"></div>
+  <section class="info">
+    <div class="container">
+      <div class="row">
+        <h1 class="logo_banner yellow">NODEPDX 2013</h1>
+        <h1 class="logo_banner yellowgreen">MAY 16-17<br>PORTLAND</h1>
+        <!-- <h1 class="logo_banner yellowgreen">PORTLAND</h1> -->
+        <h1 class="pagination-centered">Pre-register Now!</h1>
+        <div class="offset2 span8 pagination-centered">
+          <p>Early-bird tickets will be available soon, but you don't have to wait to get pre-registered.</p>
+          <p><b>Sign up below</b> and you'll be among the first to get a ticket.</p>
+          <!-- Begin MailChimp Signup Form -->
+          <div id="mc_embed_signup">
+            <form action="http://github.us6.list-manage.com/subscribe/post?u=ce2eab93dde06aba1f06c6cc6&amp;id=21cdec98cc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate _lpchecked="1">
+              <div class="mc-field-group input-append">
+                <input type="email" placeholder="Email Address" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                <input type="submit" value="Preregister" name="subscribe" id="mc-embedded-subscribe" class="btn">
+              </div>
+              <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+              </div>
+            </form>
+          </div>
+          <!--End mc_embed_signup-->
+        </div>
+      </div>
+    </div>
+  </section>
+  <a name="speakers"></a>
+  <div class="shape"></div>
+  <section class="speakers">
+    <div class="container">
+      <div class="row">
+        <div class="span1"></div>
+        <div class="span4">
+          <div class="cta-icon tape"></div>
+        </div>
+        <div class="span6">
+          <h1 class="a-little-love">Call for Proposals</h1>
+          <hr class="a-little-love" />
+          <h4 class="a-little-love">
+            We are now accepting submissions for presentations. The Call for Proposals will end on April 8th.
+          </h4>
+          <p class="a-little-love"> 
+            We'd love to hear your ideas for fascinating talks and engaging hands-on sessions about JavaScript and programmable hardware. Our favorite topics are those that deliver hard-earned knowledge based on real-world experience and research, and those that involve audience participation. Come share with us!
+          </p>
+          <h3 class="a-little-love">Go ahead, <a class="btn-link" href="mailto:thoward37@gmail.com?Subject=[NodePDX]%20Speaker%20Suggestion">suggest a speaker</a> or <a class="btn-link" href="https://github.com/nodepdx/nodepdx.github.com/tree/master/proposals">submit a talk</a>!</h3>
+        </div>
+      </div>
+      <div class="span1"></div>
+    </div>
+  </section>
+
+  <a name="map"></a>
+  <div class="shape"></div>
+  <!-- Map -->
+  <section class="map">
+    <div class="map" id="map"></div>
+  </section>
+
+  <div class="shape"></div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div class="row-fluid">
+      <div class="span6 offset3">
+        <span class="social">
+          <a href="mailto:thoward37@gmail.com?Subject=[nodepdx]%20General%20Question" title="Email"><i class="icon-email"></i></a>
+          <a href="https://github.com/nodepdx" title="Github"><i class="icon-github-text"></i></a>
+          <a href="https://twitter.com/nodepdx" title="Twitter"><i class="icon-twitter-1"></i></a>
+        </span>
+        <span class="footer_copy">© NodePDX - Built with love and passion</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/jquery-1.8.3.min.js"></script>
+
+  <script type="text/javascript" src="js/totop/jquery.ui.totop.js" ></script> 
+  <script type="text/javascript" src="js/scroll/smooth-scroll.js"></script> 
+
+  <!--fUNCTIONS-->
+  <script type="text/javascript" src="js/jquery-func.js"></script>
+
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+  <script>
+    // google maps
+
+    // some globals about our map location
+    var map;
+    var loc = new google.maps.LatLng(45.5236, -122.6750);
+    var markerPos = new google.maps.LatLng(45.5236, -122.6750);
+
+    // called from body.onload
+    function initialize() {
+
+      // some custom styling for a washed out look 
+      var stylers = [ 
+        { 
+          "featureType": "all", 
+          "elementType": "all",
+          "stylers": [ 
+              { "saturation": "-100" }  
+            ] 
+        } 
+      ];
+
+      var mapOptions = {
+        zoom: 14,
+        center: loc,
+        mapTypeId: 'venue',
+        scrollwheel: false
+      };
+      
+      map = new google.maps.Map(document.getElementById("map"), mapOptions);
+      
+      var styledMapOptions = {
+        map: map,
+        name: "venue-map"
+      }
+      var marker = new google.maps.Marker({
+        position: markerPos,
+        map: map,
+        title: "Portland"
+      });
+
+      var infowindow = new google.maps.InfoWindow({
+        maxWidth: 500,
+        position: markerPos,
+        content: '<h4 style="color: black;">Portland, Oregon</h4>'
+      });
+
+      // uncomment to show marker popup at load vs user click on marker
+      // infowindow.open(map);
+      
+      google.maps.event.addListener(marker, 'click', function() {
+        infowindow.open(map, marker);
+      });
+
+      var testmap =  new google.maps.StyledMapType(stylers, styledMapOptions);
+      
+      map.mapTypes.set('venue', testmap);
+      map.setMapTypeId('venue');
+    }
+  </script>
+</body> 
 </html>
