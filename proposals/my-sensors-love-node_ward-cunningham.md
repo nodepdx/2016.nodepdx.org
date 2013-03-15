@@ -19,7 +19,7 @@ Links
 -----
 
 * Device Hacking: http://txtzyme.com
-* Best Screencast: http://www.youtube.com/watch?v=vo4VWQGlx
+* Best Screencast: http://www.youtube.com/watch?v=vo4VWQGlx1Q
 * Federated Wiki: http://wardcunningham.github.com
 * Github Repos: http://github.com/wardcunningham
 
