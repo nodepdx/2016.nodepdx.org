@@ -27,10 +27,10 @@ My <a href="http://www.sencha.com/apps/blinktop/">first startup</a> was in socia
 
 
 > Our recent jaunt on hacker news has provided some more interesting things to read about Sails:
-> https://news.ycombinator.com/item?id=5373342
-> http://www.lafermeduweb.net/billet/sails-js-une-architecture-mvc-pour-applications-real-time-node-js-1528.html
-> http://vi.reddit.com/r/node/comments/19979x/sails_realtime_mvc_framework_for_nodejs/
-> https://twitter.com/search?q=balderdashy.github.com%2Fsails&src=typd
-> https://twitter.com/search?q=sails.js&src=typd
-> https://twitter.com/search?q=sailsjs&src=typd
-> https://twitter.com/search/realtime?q=github.com%2Fbalderdashy&src=typd
+> + https://news.ycombinator.com/item?id=5373342
+> + http://www.lafermeduweb.net/billet/sails-js-une-architecture-mvc-pour-applications-real-time-node-js-1528.html
+> + http://vi.reddit.com/r/node/comments/19979x/sails_realtime_mvc_framework_for_nodejs/
+> + https://twitter.com/search?q=balderdashy.github.com%2Fsails&src=typd
+> + https://twitter.com/search?q=sails.js&src=typd
+> + https://twitter.com/search?q=sailsjs&src=typd
+> + https://twitter.com/search/realtime?q=github.com%2Fbalderdashy&src=typd
