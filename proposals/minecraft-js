@@ -1,0 +1,27 @@
+[Minecraft.js]
+========================
+
+* Speaker   : [Max Ogden]
+* Available : [Any]
+* Length    : [45 Minutes]
+
+Description
+-----------
+
+In January 2013 I started the [Voxel.js project](http://voxeljs.com) project. Since then we have generated nearly 100 node modules related to 3D game development and distribution, e.g. voxel rendering and first person controls and physics. In the main module (voxel-engine) I've received 50 pull requests from 20 contributors.
+
+I'd like to talk about why voxel.js has been successful from an open source standpoint (open from the beginning) and also show off some fun 3D demos and inspire people to take up game development in JS.
+
+---------------
+
+Speaker Bio
+-----------
+
+I used to live in Portland but defected to Oakland to work at Code for America a couple of years ago.
+
+Links
+-----
+
+* Blog: http://maxogden.com
+* Company: nope
+* Github: http://github.com/maxogden
