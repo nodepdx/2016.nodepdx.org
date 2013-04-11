@@ -9,6 +9,10 @@ Description
 -----------
 Meteor allows you to quickly build interactive, event-driven applications that can broadcast changes out to connected browsers using websockets, node.js, and MongoDB.  In this session, we'll build a simple application and review basic security precautions for client-side application design.
 
+**Post:**
+
+ * https://www.openshift.com/blogs/cloudy-with-a-chance-of-meteorjs
+
 ---------------
 An adaptation of this talk is scheduled for MongoDB ATL
 

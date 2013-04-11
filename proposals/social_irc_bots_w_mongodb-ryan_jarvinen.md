@@ -9,6 +9,15 @@ Description
 -----------
 Improve your team's productivity and encourage participation with social IRC bots!  Create leaderboards, encourage positive communication by awarding points, and bring your bot to life using Node.js and MongoDB in this interactive bot-building workshop.  We'll attempt to accept feature suggestions from the crowd as we build. 
 
+**Slides:**
+
+ * http://ryanjarvinen.com/presentations/irc/
+
+**Posts:**
+
+ * https://www.openshift.com/blogs/building-social-irc-bots-with-nodejs-part-1
+ * https://www.openshift.com/blogs/building-social-irc-bots-with-nodejs-part-2
+
 ---------------
 An adaptation of this talk was presented recently at MongoDB LA, MongoDB DC, MongoDB ATL
 
