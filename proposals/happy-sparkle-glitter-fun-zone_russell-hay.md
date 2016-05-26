@@ -25,6 +25,6 @@ Links
 
 * Blog: http://russellhay.com
 * Podcast (audiobook): http://poorimpulse.co
-* Twitter: https://twitter.com/RussellHay
+* Twitter: http://twitter.com/RussellHay
 * This thing we do, sometimes: http://stainless.io
 * Github: http://github.com/RussTheAerialist
