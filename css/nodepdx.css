@@ -409,3 +409,53 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
+#speakers .thumbnail {
+  background-color: #773131;
+  border-color: #883625;
+}
+
+#speakers .thumbnail h4 {
+  margin-top: 20px;
+}
+
+#speakers .thumbnail a {
+  color: gold;
+}
+
+#sponsors .frame {
+  width: 100%;
+  white-space: nowrap;
+  text-align: center; margin: 1em 0;
+}
+
+#sponsors .helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+#sponsors img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+}
+
+#sponsors .col-md-12 .frame {
+  height: 300px;
+}
+#sponsors .col-md-12 img {
+  max-height: 300px;
+}
+#sponsors .col-md-6 .frame {
+  height: 150px;
+}
+#sponsors .col-md-6 img {
+  max-height: 150px;
+}
+#sponsors .col-md-3 img {
+  max-height: 75px;
+}
+#sponsors .col-md-3 .frame {
+  height: 75px;
+}
