@@ -1,4 +1,6 @@
-# The NodePDX Code of Conduct
+The NodePDX Code of Conduct
+---------------------------
+
 
 ## Need Help?
 
